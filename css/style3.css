@@ -53,3 +53,14 @@
         display: none;
     }
 }
+.check:checked ~ .hamburger .nav-icon-hamburger{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+.check:checked ~ .hamburger .nav-icon-close{
+    display: block;
+}
+.check:checked ~ .nav-mobile{
+    transform: translateX(0%);
+}
