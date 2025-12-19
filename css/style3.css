@@ -28,3 +28,28 @@
         transform: translateX(0%);
     }
 }
+
+.check{
+    position: absolute;
+    left: -500px;
+}
+.hamburger{
+    display: none;
+}
+@media (max-width: 40rem) {
+    .nav-desktop {
+        display: none;
+    }
+    .nav-mobile {
+          transform: translateX(-150%);
+    }
+    .hamburger {
+        display: block;
+    }
+    .nav-icon-hamburger {
+        display: block;
+    }  
+    .nav-icon-close {
+        display: none;
+    }
+}
